@@ -1,0 +1,212 @@
+header h1 {
+  text-align: center;
+  padding: 0;
+  font-size: 3vw;
+  color: #ffff;
+}
+header h1 a {
+  font-family: "Quicksand", sans-serif;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 2.5rem;
+  color: rgb(51, 51, 51);
+}
+
+header a {
+  text-decoration: none;
+}
+
+body {
+  justify-content: center;
+  align-items: center;
+  height: 230vh;
+  margin: 0;
+  font-family: "Open Sans", sans-serif;
+  font-size: 90%;
+  background: linear-gradient(-60deg, rgb(277, 255, 253), rgb(253, 145, 57));
+  width: 100%;
+}
+
+.intro {
+  background: linear-gradient(0deg, rgb(277, 255, 253), rgb(255, 219, 164));
+  color: rgb(75, 75, 74);
+  padding: 26px;
+  border-radius: 15px;
+  max-width: 94vw;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 100px;
+  box-shadow: 1px 2px 4px 4px rgb(124, 124, 124);
+  font-size: 1.375rem;
+}
+
+.intro img {
+  height: 20rem;
+  margin: 6rem 0;
+  display: block;
+  object-fit: contain;
+  max-width: 100%;
+  width: 100%;
+}
+
+.intro ul {
+  display: flex;
+  margin-bottom: 2rem;
+  justify-content: left;
+}
+
+.intro li {
+  list-style: none;
+  margin-top: 12rem;
+  margin-left: 3rem;
+  background-color: rgb(252, 159, 84);
+  border-radius: 1.5rem;
+  padding: 0.5rem 0;
+}
+
+.intro a {
+  text-decoration: none;
+  padding: 1rem;
+  font-size: 110%;
+}
+
+#wikibtn {
+  background-color: rgb(255, 222, 173);
+}
+#wikibtn a {
+  color: rgb(253, 126, 22);
+}
+
+#calcbtn {
+  background-color: rgb(253, 145, 57);
+}
+
+#calcbtn a {
+  color: rgb(252, 227, 191);
+}
+
+.mainbox {
+  background: linear-gradient(0deg, rgb(277, 255, 253), rgb(255, 219, 164));
+  color: white;
+  padding: 1.625rem;
+  border-radius: 1rem;
+  max-width: 94vw;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 6.25rem;
+  box-shadow: 1px 2px 4px 4px rgb(124, 124, 124);
+}
+
+.search {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+button {
+  margin: 8px;
+  border-radius: 50%;
+  border: none;
+  height: 2.125rem;
+  width: 2.125rem;
+  outline: none;
+  background: #7c7c7c6b;
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+  transition: 0.2s ease-in-out;
+}
+
+button:hover {
+  background: #7c7c7c8b;
+}
+
+.Text {
+  border: none;
+  outline: none;
+  padding: 0.438rem 0.5rem;
+  border-radius: 1.5rem;
+  background: #0303034b;
+  color: rgba(255, 255, 255, 0.836);
+  font-family: inherit;
+  font-size: 105%;
+  margin: 10px;
+}
+
+.outputbox {
+  justify-content: center;
+  padding: 0;
+  height: 5px;
+  width: 60%;
+  overflow: scroll;
+  border-radius: 15%;
+  background-color: #666;
+  color: aliceblue;
+}
+
+@media only screen and (min-width: 768px) {
+  body {
+    font-size: 120%;
+  }
+
+  button {
+    height: 44px;
+    width: 44px;
+  }
+}
+
+@media (max-width: 48rem) {
+  .intro a {
+    font-size: 0.9rem;
+    padding: 10px;
+  }
+
+  .intro ul {
+    justify-content: left;
+    padding:0;
+  }
+
+  .intro li {
+    padding-top: 2px;
+  }
+
+  #calcbtn {
+    margin-left: 1rem;
+  }
+  
+  #wikibtn{
+    margin-left: -0.5rem;
+  }
+  header h1 a {
+    font-size: 2rem;
+  }
+}
+.outputwindow {
+  margin: 5vw;
+  height: 30vw;
+  width: 60%;
+  overflow: scroll;
+  border-radius: 15px;
+  background-color: rgba(245, 235, 206, 0.918);
+  color: rgb(41, 41, 41);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10%;
+  font-size: x-large;
+  color: rgb(75, 75, 74);
+}
+
+.footer {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-top: 6%;
+}
+.footer h2 {
+  color: rgba(0, 0, 0, 0.836);
+  font-size: 24px;
+}
